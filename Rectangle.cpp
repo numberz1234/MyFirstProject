@@ -5,6 +5,14 @@ Rectangle::Rectangle(){
     width = 0.0f;
 }
 
+
+
+Rectangle::Rectangle(float lengg, float wwidth){
+
+    length = lengg;
+    width =  wwidth;
+}
+
 // Assigning new values to sides (length and width). Initially they both holds 0.
 void Rectangle::SetValuesOfSides(float l, float w){
 

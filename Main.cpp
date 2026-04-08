@@ -17,6 +17,15 @@ int main(){
 
     cout << "Area Of Rectangle:  "<< area<< endl;
 
+   cout<< "Enter the length for a Rectabgle 2:  ";
+   cin >> length;
+   cout << "Enter the width for a Recatangle 2:  ";
+   cin >> width;
+   Rectangle secondObjectOfRecatangle(length, width);
+   float area2 = secondObjectOfRecatangle.calculateArea();
+   cout << "Area Of Rectangle2 :  "<< area2<< endl;
+
+
 
     return 0;
 }

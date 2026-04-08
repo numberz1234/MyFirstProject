@@ -12,6 +12,7 @@ class Rectangle{
     public :
 
     Rectangle();
+    Rectangle(float lengg, float wwidth);
     ~Rectangle();
     
     void SetValuesOfSides(float l, float w);
