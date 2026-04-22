@@ -1,8 +1,7 @@
 #pragma once
 #include "Polygon.h"
 
-class Rectangle : public Polygon{
-    
+class Triangle : public Polygon{
     public:
     int area();
 };
